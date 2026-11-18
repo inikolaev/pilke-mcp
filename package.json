@@ -1,0 +1,9 @@
+{
+  "name": "pilke-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node src/index.js", "test": "node --test" },
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.32.2", "dotenv": "^17.2.3", "mammoth": "^1.11.0", "pdf-parse": "^2.4.5", "zod": "^4.0.0" }
+}
